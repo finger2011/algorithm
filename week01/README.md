@@ -1,6 +1,7 @@
 # 算法训练营第一周
 
 ## 本周作业
+
 + [加一](https://github.com/finger2011/algorithm/blob/master/week01/plus_one.go)
 + [合并两个有序链表](https://github.com/finger2011/algorithm/blob/master/week01/merge_two_sorted_lists.go)
 + [设计循环双端队列](https://github.com/finger2011/algorithm/blob/master/week01/deque.go)
@@ -11,6 +12,7 @@
 ### 第一课
 
 #### 数组
+
 + [合并有序数组](https://github.com/finger2011/algorithm/blob/master/week01/onclass/merge_sorted_array.go)
 + [删除有序数组中的重复项](https://github.com/finger2011/algorithm/blob/master/week01/onclass/remove_duplicates.go)
 + [移动零](https://github.com/finger2011/algorithm/blob/master/week01/onclass/move_zeros.go)
@@ -25,6 +27,7 @@
 ### 第二课
 
 #### 栈、队列
+
 + [有效的括号](https://github.com/finger2011/algorithm/blob/master/week01/onclass/valid_parentheses.go)
 + [最小栈](https://github.com/finger2011/algorithm/blob/master/week01/onclass/min_stack.go)
 + [逆波兰表达式求值](https://github.com/finger2011/algorithm/blob/master/week01/onclass/evaluate_reverse_polish_notation.go)
@@ -35,5 +38,6 @@
 + [柱状图中最大的矩形](https://github.com/finger2011/algorithm/blob/master/week01/largest_rectangle_in_histogram.go)
 + [滑动窗口最大值](https://github.com/finger2011/algorithm/blob/master/week01/onclass/sliding_window_maximum.go)
 + [接雨水](https://github.com/finger2011/algorithm/blob/master/week01/onclass/trapping_rain_water.go)
+
 
 
