@@ -1,7 +1,18 @@
 # 算法训练营第二周
-[toc]
+<!-- vscode-markdown-toc -->
+* 1. [本周总结 - 题解思路](#summary)
+* 2. [本周作业](#homework)
+* 3. [实战例题](#subjects)
+	* 3.1. [第三课](#lesson3)
+	* 3.2. [第四课](#lesson4)
 
-## 本周总结 - 题解思路
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='summary'></a>本周总结 - 题解思路
 
 ### 跟两个端点、子段、窗口有关
 
@@ -35,16 +46,16 @@
 + [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 + [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
 
-## 本周作业
+##  2. <a name='homework'></a>本周作业
 
 + [子域名访问计数](https://github.com/finger2011/algorithm/blob/master/week02/subdomain_visit_count.go)
 + [数组的度](https://github.com/finger2011/algorithm/blob/master/week02/degree_of_an_array.go)
 + [元素和为目标值的子矩阵数量](https://github.com/finger2011/algorithm/blob/master/week02/number_of_submatrices_that_sum_to_target.go)
 + [和为 K 的子数组](https://github.com/finger2011/algorithm/blob/master/week02/subarray_sum_equals_k.go)
 
-## 实战例题
+##  3. <a name='subjects'></a>实战例题
 
-### 第三课
+###  3.1. <a name='lesson3'></a>第三课
 
 #### 无序集合、映射
 
@@ -56,7 +67,7 @@
 #### LRU
 + [LRU 缓存机制](https://github.com/finger2011/algorithm/blob/master/week02/onclass/lru_cache.go)
 
-### 第四课
+###  3.2. <a name='lesson4'></a>第四课
 
 #### 前缀和、差分
 
