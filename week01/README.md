@@ -19,8 +19,8 @@
 
 #### 链表
 + [反转链表](https://github.com/finger2011/algorithm/blob/master/week01/onclass/reverted_linked_list.go)
-+ [K 个一组翻转链表](https://github.com/finger2011/algorithm/blob/master/week01/onclass/neighborhood_lookup.go)
-+ [邻值查找](https://github.com/finger2011/algorithm/blob/master/week01/onclass/merge_sorted_array.go)
++ [K 个一组翻转链表](https://github.com/finger2011/algorithm/blob/master/week01/onclass/reverse_node_in_k_group.go)
++ [邻值查找](https://github.com/finger2011/algorithm/blob/master/week01/onclass/neighborhood_lookup.go)
 + [环形链表](https://github.com/finger2011/algorithm/blob/master/week01/onclass/linked_list_cycle.go)
 + [环形链表 II ](https://github.com/finger2011/algorithm/blob/master/week01/onclass/linked_list_cycle_start_node.go)
 
