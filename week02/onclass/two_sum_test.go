@@ -1,6 +1,7 @@
 package week02onclass
 
 import (
+	"finger2011/algggorithm/internel"
 	"reflect"
 	"testing"
 )
@@ -157,28 +158,9 @@ func Test_twoSum3(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := twoSum3(tt.args.nums, tt.args.target); !intEqual(got, tt.want) {
+			if got := twoSum3(tt.args.nums, tt.args.target); !internel.IntEqual(got, tt.want) {
 				t.Errorf("twoSum3() = %v, want %v", got, tt.want)
 			}
 		})
 	}
-}
-
-func intEqual(nums1, nums2 []int) bool {
-	if len(nums1) != len(nums2) {
-		return false
-	}
-	for _, str := range nums1 {
-		var isContain bool
-		for _, compareStr := range nums2 {
-			if reflect.DeepEqual(str, compareStr) {
-				isContain = true
-				break
-			}
-		}
-		if !isContain {
-			return false
-		}
-	}
-	return true
 }
