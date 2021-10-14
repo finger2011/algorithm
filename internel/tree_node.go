@@ -1,5 +1,68 @@
 package internel
 
+//NodeTree 多叉树
+type NodeTree struct {
+	Val      int
+	Children []*NodeTree
+}
+
+//PrintNodeTree 打印输出数组
+func (node *NodeTree) PrintNodeTree() []int {
+	if node == nil {
+		return []int{}
+	}
+	var ans = []int{node.Val, MinInt}
+	var nodes = []*NodeTree{node}
+	var tmpNodes = []*NodeTree{}
+	for len(nodes) > 0 {
+		for i := 0; i < len(nodes); i++ {
+			if len(nodes[i].Children) > 0 {
+				for j := 0; j < len(nodes[i].Children); j++ {
+					tmpNodes = append(tmpNodes, nodes[i].Children[j])
+					ans = append(ans, nodes[i].Children[j].Val)
+				}
+			}
+			ans = append(ans, MinInt)
+		}
+		nodes = tmpNodes
+		tmpNodes = []*NodeTree{}
+	}
+
+	return ans
+}
+
+//CreateNodeTree 数组转多叉树
+func CreateNodeTree(nums []int) *NodeTree {
+	return createNodeTree(nums)
+}
+
+//1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14
+func createNodeTree(nums []int) *NodeTree {
+	if len(nums) == 0 {
+		return nil
+	}
+	var root = &NodeTree{Val: nums[0]}
+	var cur = 2
+	var nodes = []*NodeTree{root}
+	var tmpNodes = []*NodeTree{}
+	for cur < len(nums) {
+		for i := 0; i < len(nodes); i++ {
+			for ;cur < len(nums); cur++ {
+				if nums[cur] == MinInt {
+					cur++
+					break
+				}
+				var newNode = &NodeTree{Val:nums[cur]}
+				nodes[i].Children = append(nodes[i].Children, newNode)
+				tmpNodes = append(tmpNodes, newNode)
+			}
+		}
+		nodes = tmpNodes
+		tmpNodes = []*NodeTree{}
+	}
+	return root
+}
+
 //TreeNode 树节点
 type TreeNode struct {
 	Val   int
@@ -9,6 +72,9 @@ type TreeNode struct {
 
 //TreeToInt 打印输出
 func (t *TreeNode) TreeToInt() []int {
+	if t == nil {
+		return []int{}
+	}
 	var ant = []int{t.Val}
 	if t.Left != nil {
 		ant = append(ant, t.Left.TreeToInt()...)

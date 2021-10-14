@@ -2,6 +2,34 @@ package internel
 
 import "reflect"
 
+//Max 最大值
+func Max(nums ...int) int {
+	if len(nums) == 1 {
+		return nums[0]
+	}
+	var ans = nums[0]
+	for i := 1; i < len(nums); i++ {
+		if nums[i] > ans {
+			ans = nums[i]
+		}
+	}
+	return ans
+}
+
+//Min 最小值
+func Min(nums ...int) int {
+	if len(nums) == 1 {
+		return nums[0]
+	}
+	var ans = nums[0]
+	for i := 1; i < len(nums); i++ {
+		if nums[i] < ans {
+			ans = nums[i]
+		}
+	}
+	return ans
+}
+
 //IntsEqual [][]int equal
 func IntsEqual(nums1, nums2 [][]int) bool {
 	if len(nums1) != len(nums2) {
