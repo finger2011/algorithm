@@ -23,11 +23,11 @@
 + [括号生成](https://github.com/finger2011/algorithm/blob/master/week03/onclass/generate_parentheses.go)
 ### 第六课
 #### 树、二叉树、树的遍历
-+ [二叉树的中序遍历](https://github.com/finger2011/algorithm/blob/master/week03/binary_tree_inorder_traversal.go)
-+ [N 叉树的前序遍历](https://github.com/finger2011/algorithm/blob/master/week03/n_ary_tree_preorder_traversal.go)
-+ [N 叉树的层序遍历](https://github.com/finger2011/algorithm/blob/master/week03/n_ary_tree_level_order_traversal.go)
-+ [二叉树的序列化与反序列化](https://github.com/finger2011/algorithm/blob/master/week03/serialize_and_deserialize_binary_tree.go)
-+ [从前序与中序遍历序列构造二叉树](https://github.com/finger2011/algorithm/blob/master/week03/construct_binary_tree_from_preorder_and_inorder_traversal.go)
++ [二叉树的中序遍历](https://github.com/finger2011/algorithm/blob/master/week03/onclass/binary_tree_inorder_traversal.go)
++ [N 叉树的前序遍历](https://github.com/finger2011/algorithm/blob/master/week03/onclass/n_ary_tree_preorder_traversal.go)
++ [N 叉树的层序遍历](https://github.com/finger2011/algorithm/blob/master/week03/onclass/n_ary_tree_level_order_traversal.go)
++ [二叉树的序列化与反序列化](https://github.com/finger2011/algorithm/blob/master/week03/onclass/serialize_and_deserialize_binary_tree.go)
++ [从前序与中序遍历序列构造二叉树](https://github.com/finger2011/algorithm/blob/master/week03/onclass/construct_binary_tree_from_preorder_and_inorder_traversal.go)
 #### 树的直径、最近公共祖先、树的变形
 + [树的直径](https://github.com/finger2011/algorithm/blob/master/week03/onclass/tree_diameter.go)
 + [二叉树的最近公共祖先](https://github.com/finger2011/algorithm/blob/master/week03/onclass/lowest_common_ancestor_of_binary_tree.go)
