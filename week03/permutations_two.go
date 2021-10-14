@@ -1,4 +1,4 @@
-package week03onclass
+package week03
 
 // https://leetcode-cn.com/problems/permutations-ii/
 // leetcode 47 全排列 II

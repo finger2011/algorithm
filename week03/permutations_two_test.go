@@ -1,4 +1,4 @@
-package week03onclass
+package week03
 
 import (
 	"reflect"
