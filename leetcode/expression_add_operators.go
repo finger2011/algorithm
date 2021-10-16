@@ -1,5 +1,8 @@
 package leetcode
 
+// https://leetcode-cn.com/problems/expression-add-operators/
+// leetcode 282. 给表达式添加运算符
+
 import (
 	"fmt"
 	"strconv"
