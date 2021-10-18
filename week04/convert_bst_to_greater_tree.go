@@ -3,7 +3,7 @@ package week04
 import "finger2011/algggorithm/internel"
 
 // https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
-// leetcode https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
+// leetcode 538. 把二叉搜索树转换为累加树
 
 var plus int
 
