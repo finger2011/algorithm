@@ -84,6 +84,36 @@ func (t *TreeNode) TreeToInt() []int {
 	}
 	return ant
 }
+//ValidBST 判断是否是平衡二叉树
+func (t *TreeNode) ValidBST() bool {
+	if t == nil {
+		return true
+	}
+	if t.Left == nil && t.Right == nil {
+		return true
+	}
+	if t.Left == nil && t.Right != nil {
+		return t.Right.ValidBST()
+	}
+	if t.Left != nil && t.Right == nil {
+		return t.Left.ValidBST()
+	}
+	return t.Left.ValidBST() && t.Right.ValidBST()
+}
+//ContainVal check if contain val
+func (t *TreeNode) ContainVal(val int) bool {
+	if t == nil {
+		return false
+	}
+	if t.Val == val {
+		return true
+	}
+	if t.Val < val {
+		return t.Right.ContainVal(val)
+	} else {
+		return t.Left.ContainVal(val)
+	}
+}
 
 //CreateTreeByInt 创建一棵树
 func CreateTreeByInt(nums []int) *TreeNode {
