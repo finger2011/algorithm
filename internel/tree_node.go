@@ -47,12 +47,12 @@ func createNodeTree(nums []int) *NodeTree {
 	var tmpNodes = []*NodeTree{}
 	for cur < len(nums) {
 		for i := 0; i < len(nodes); i++ {
-			for ;cur < len(nums); cur++ {
+			for ; cur < len(nums); cur++ {
 				if nums[cur] == MinInt {
 					cur++
 					break
 				}
-				var newNode = &NodeTree{Val:nums[cur]}
+				var newNode = &NodeTree{Val: nums[cur]}
 				nodes[i].Children = append(nodes[i].Children, newNode)
 				tmpNodes = append(tmpNodes, newNode)
 			}
@@ -84,6 +84,7 @@ func (t *TreeNode) TreeToInt() []int {
 	}
 	return ant
 }
+
 //ValidBST 判断是否是平衡二叉树
 func (t *TreeNode) ValidBST() bool {
 	if t == nil {
@@ -100,6 +101,7 @@ func (t *TreeNode) ValidBST() bool {
 	}
 	return t.Left.ValidBST() && t.Right.ValidBST()
 }
+
 //ContainVal check if contain val
 func (t *TreeNode) ContainVal(val int) bool {
 	if t == nil {
@@ -110,9 +112,8 @@ func (t *TreeNode) ContainVal(val int) bool {
 	}
 	if t.Val < val {
 		return t.Right.ContainVal(val)
-	} else {
-		return t.Left.ContainVal(val)
 	}
+	return t.Left.ContainVal(val)
 }
 
 //CreateTreeByInt 创建一棵树
