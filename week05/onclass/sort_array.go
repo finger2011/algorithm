@@ -3,6 +3,36 @@ package week05onclass
 // https://leetcode-cn.com/problems/sort-an-array/
 // leetcode 912. 排序数组
 
+func quickSort(nums []int, left, right int) {
+	if left >= right {
+		return
+	}
+	var mid = partition(nums,left, right)
+	quickSort(nums, left, mid)
+	quickSort(nums, mid+1, right)
+}
+
+func partition(nums []int,left, right int) int {
+	var pVal = nums[left]
+	for left <= right {
+		for left < len(nums) && nums[left] < pVal {
+			left++
+		}
+		for right < len(nums) && nums[right] > pVal {
+			right--
+		}
+		if left == right {
+			break
+		}
+		if left < right {
+			nums[left], nums[right] = nums[right], nums[left]
+			left++
+			right--
+		}
+	}
+	return right
+}
+
 //归并排序
 var numSortArr []int
 

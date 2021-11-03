@@ -4,7 +4,7 @@
 + [在 D 天内送达包裹的能力](https://github.com/finger2011/algorithm/blob/master/week05/capacity_ship_packages_within_d_days.go)
 + [在线选举](https://github.com/finger2011/algorithm/blob/master/week05/online_election.go)
 + [爱吃香蕉的珂珂](https://github.com/finger2011/algorithm/blob/master/week05/koko_eating_bananas.go)
-+ [区间和的个数（选做）]()
++ [区间和的个数（选做）](https://github.com/finger2011/algorithm/blob/master/week05/count_of_range_sum.go)
 + [寻找旋转排序数组中的最小值 II](https://github.com/finger2011/algorithm/blob/master/week05/find_minimum_in_rotated_sorted_array_two.go)
 + [搜索二维矩阵](https://github.com/finger2011/algorithm/blob/master/week05/search_2d_matrix.go)
 
@@ -25,12 +25,12 @@
 + [制作 m 束花所需的最少天数](https://github.com/finger2011/algorithm/blob/master/week05/onclass/minimum_number_days_make_bouquets.go)
 ### 第十课
 #### 排序
-+ [排序数组]()
-+ [数组的相对排序]()
-+ [合并区间]()
-+ [数组中的第 K 个最大元素]()
-+ [货仓选址]()
-+ [翻转对翻转对]()
++ [排序数组](https://github.com/finger2011/algorithm/blob/master/week05/onclass/sort_array.go)
++ [数组的相对排序](https://github.com/finger2011/algorithm/blob/master/week05/onclass/relative_sort_array.go)
++ [合并区间](https://github.com/finger2011/algorithm/blob/master/week05/onclass/merge_intervals.go)
++ [数组中的第 K 个最大元素](https://github.com/finger2011/algorithm/blob/master/week05/onclass/kth_largest_element_in_array.go)
++ [货仓选址](https://github.com/finger2011/algorithm/blob/master/week05/onclass/address_select.go)
++ [翻转对翻转对](https://github.com/finger2011/algorithm/blob/master/week05/onclass/reverse_pairs.go)
 
 
 
