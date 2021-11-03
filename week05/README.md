@@ -30,7 +30,7 @@
 + [合并区间](https://github.com/finger2011/algorithm/blob/master/week05/onclass/merge_intervals.go)
 + [数组中的第 K 个最大元素](https://github.com/finger2011/algorithm/blob/master/week05/onclass/kth_largest_element_in_array.go)
 + [货仓选址](https://github.com/finger2011/algorithm/blob/master/week05/onclass/address_select.go)
-+ [翻转对翻转对](https://github.com/finger2011/algorithm/blob/master/week05/onclass/reverse_pairs.go)
++ [翻转对](https://github.com/finger2011/algorithm/blob/master/week05/onclass/reverse_pairs.go)
 
 
 

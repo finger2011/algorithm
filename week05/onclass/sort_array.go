@@ -2,17 +2,24 @@ package week05onclass
 
 // https://leetcode-cn.com/problems/sort-an-array/
 // leetcode 912. 排序数组
+// 冒泡 done
+// 插入 done
+// 选择 done
+// 堆排序 done
+// 归并排序 done
+// 快排 done
 
+//快速排序
 func quickSort(nums []int, left, right int) {
 	if left >= right {
 		return
 	}
-	var mid = partition(nums,left, right)
+	var mid = partition(nums, left, right)
 	quickSort(nums, left, mid)
 	quickSort(nums, mid+1, right)
 }
 
-func partition(nums []int,left, right int) int {
+func partition(nums []int, left, right int) int {
 	var pVal = nums[left]
 	for left <= right {
 		for left < len(nums) && nums[left] < pVal {
