@@ -9,3 +9,4 @@ algorithm learning
 + [第四周](week04/README.md)
 + [第五周](week05/README.md)
 + [第六周](week06/README.md)
++ [第七周](week07/README.md)

@@ -1,4 +1,4 @@
-# 算法训练营第五周
+# 算法训练营第六周
 
 ## 本周作业
 + [爬楼梯](https://github.com/finger2011/algorithm/blob/master/week06/climbing_stairs.go)
