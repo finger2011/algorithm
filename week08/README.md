@@ -19,12 +19,12 @@
 
 ### 第十六课
 #### 最短路
-+ [网络延迟时间](https://github.com/finger2011/algorithm/blob/master/week08/onclass/.go)
-+ [阈值距离内邻居最少的城市](https://github.com/finger2011/algorithm/blob/master/week08/onclass/.go)
-+ [Dijkstra 求最短路 II ](https://github.com/finger2011/algorithm/blob/master/week08/onclass/.go)
++ [网络延迟时间](https://github.com/finger2011/algorithm/blob/master/week08/onclass/network_delay_time.go)
++ [阈值距离内邻居最少的城市](https://github.com/finger2011/algorithm/blob/master/week08/onclass/threshold_distance.go)
++ [Dijkstra 求最短路 II ](https://github.com/finger2011/algorithm/blob/master/week08/onclass/dijkstra.go)
 
 ##### 最小生成树
-+ [最小生成树](https://github.com/finger2011/algorithm/blob/master/week08/onclass/.go)
++ [连接所有点的最小费用](https://github.com/finger2011/algorithm/blob/master/week08/onclass/min_cost_connect_points.go)
 
 
 
